@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class venkylaunch {
 
-	private static final By by.xpath() = null;
+
 
 	public static void main(String[] args) throws InterruptedException
 	{
@@ -26,7 +26,7 @@ public class venkylaunch {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input")).sendKeys("RADHA");
 		Thread.sleep(4000);
-		driver.findElement(by.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[1]/div[1]/div[2]/div/div[1]/input")).sendKeys("KRISHNA");
+		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[1]/div[1]/div[2]/div/div[1]/input")).sendKeys("KRISHNA");
 		Thread.sleep(6000);
 		driver.findElement(By.name("sex")).click();	
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[6]/div/div[1]/input")).sendKeys("1234567889");
