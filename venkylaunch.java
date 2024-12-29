@@ -25,12 +25,14 @@ public class venkylaunch {
 		driver.get("https://www.facebook.com/r.php?entry_point=login");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input")).sendKeys("RADHA");
-		Thread.sleep(4000);
+		Thread.sleep(1500);
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[1]/div[1]/div[2]/div/div[1]/input")).sendKeys("KRISHNA");
-		Thread.sleep(6000);
+		Thread.sleep(2000);
 		driver.findElement(By.name("sex")).click();	
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[6]/div/div[1]/input")).sendKeys("1234567889");
-		Thread.sleep(8000);
+		Thread.sleep(2500);
+		driver.findElementd(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[11]/button")).click();
+		Thread.sleep(3000);
 		//WebElement maleRadiobutton = driver.findElement(By.xpath("//input[@value = Male]"));
 //syntax : if(condition){
 		//body - SYSOUT		
